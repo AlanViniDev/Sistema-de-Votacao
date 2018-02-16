@@ -14,7 +14,7 @@ function validarDados(campo, valor) {
 	}
 	
 	// Aqui vai o valor e o nome do campo que pediu a requisição.
-	var url = "../control/validacao.php?campo="+campo+"&valor="+valor;
+	var url = "../php/validacao.php?campo="+campo+"&valor="+valor;
 	
 	// Chamada do método open para processar a requisição
 	req.open("Get", url, true);
