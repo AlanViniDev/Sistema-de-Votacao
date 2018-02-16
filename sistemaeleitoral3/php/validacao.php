@@ -70,7 +70,7 @@ if ($campo == "emaillogin"){
 		echo "<p style = 'color:red;position:relative;top:-16.5px;float:right;font-family:Montserrat;'>E-mail invalido ou não está cadastrado!</p>";
 	}
 	}
-
+// Valida se a senha está correta para o usuario ter acesso a página de administração
 if ($_POST){
 	$senhalogin = $_POST['senhalogin'];
 	$data = $conn->query('SELECT (COUNT(senha)) AS tst FROM usuario WHERE senha = ' . $conn->quote($senhalogin));
