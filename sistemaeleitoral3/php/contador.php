@@ -1,5 +1,5 @@
 <?php
-require_once ("../model/conexao.php");
+require_once ("conexao.php");
 
 $lula = 0;
 $bolsonaro = 0;

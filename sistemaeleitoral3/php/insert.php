@@ -1,6 +1,6 @@
 <?php
 
-require_once("../model/conexao.php");
+require_once("conexao.php");
 
 extract($_POST);
 $senha =  md5($_POST['senha']);
