@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang = "pt-br">
+<!-- Declaração de links, meta tags e icons -->
+<head>
+    <title>votação</title>
+    <link rel="stylesheet" type="text/css" href = "style/styleIndex.css"/>
+    <link rel="stylesheet" type="text/css" href = "style/styleVotar.css"/>
+    <meta charset = "UTF-8"/>
+    <meta name="robots" content="INDEX, FOLLOW" />
+    <meta name="author" content="NomeSite.com.br" />
+    <meta name="description" content=""/>
+    <meta name="Abstract" content=""/>
+    <meta name="keywords" content=""/>
+    <script src = "js/ajax.js"></script>
+</head>
+<!-- Corpo do documento html -->
+<body>
+<!-- topo -->
+<section>
+    <h1>Votação</h1>
+</section>
+<!-- conteudo -->
+<section> 
+  <form name = "formulario"  method = "post" action = "../php/contador.php">
+  <div class = "nomes">
+  <label>Luiz Inácio Lula da Silva</label>
+  <input  type = "checkbox" name = "lula"/> 
+  <br/>
+
+  <label>Jair Bolsonaro </label>
+  <input  type = "checkbox" name = "bolsonaro"/>
+  <br/>
+
+  <label>Nulo </label>
+  <input  type = "checkbox" name = "nulo" />
+  <br/>
+  </div>
+  <label >
+      <button  type = "submit" name = "enviar">CONFIRMAR</button>
+  </label>
+  </form>
+  <label class = "inicio">
+     <a  href = "index.php"> <button   type = "submit">INICIO</button> </a>
+  </label> 
+
+  
+
+  
+</section>
+<!-- rodape -->
+<footer></footer>
+<script src = "js/index.js"></script>
+</body>
+</html>

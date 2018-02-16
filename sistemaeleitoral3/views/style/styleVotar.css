@@ -1,0 +1,31 @@
+
+form,label,input{
+    text-align: center;
+    margin: 0px;
+    position: relative;
+    top:150px;
+}
+
+.inicio{
+   margin:auto;
+   display:block;
+   top:310px;
+}
+
+
+button{
+    color:white;
+    background-color:#2ecc71;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    width:135px;
+    height:35px;
+    font-weight:bolder;
+}
+
+
+.nomes{
+    color:white;
+    font-weight: bolder;
+}
