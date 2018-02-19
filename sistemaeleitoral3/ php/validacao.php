@@ -1,7 +1,4 @@
 <?php
-// chama a conexao com o banco de dados
-require_once("conexao.php");
-
 // o @ e para não dar undefined index caso  o usuario va utilizar o formulario de login
 // quando chamar a validacao se não usar @ ele mostra undefine pois não no login ele não recebe dados
 $campo = @$_GET['campo'];
